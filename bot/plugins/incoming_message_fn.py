@@ -49,7 +49,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Support', url='https://telegram.me/share/url?url=**Syn%20-%20Video%20-%20Compressor**%20%0A%0AYou%20can%20Compress%20Telegram%20Videos%0A%0ACompress%20now%20-%20@Synvidcombot')
+                    InlineKeyboardButton('Support Group', url='https://telegram.me/tellybots_support')
                 ]
             ]
         ),
