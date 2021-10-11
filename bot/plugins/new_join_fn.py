@@ -29,7 +29,7 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Support', url='https://t.me/tellybots_support')
+                    InlineKeyboardButton('Support', url='https://t.me/DK_BOTZ')
                 ]
             ]
         ),
