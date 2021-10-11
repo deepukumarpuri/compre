@@ -84,7 +84,7 @@ async def incoming_start_message_f(bot, update):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/DK_BOTZ).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -95,12 +95,12 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🗣️Group', url='https://t.me/mo_Tech_Group'),
-                    InlineKeyboardButton('📢Channel', url='https://t.me/Mo_Tech_YT/176'),
-                    InlineKeyboardButton('✳️Source', url='https://github.com/MRK-YT/MT-VideoCompress')
+                    InlineKeyboardButton('🗣️ Group', url='https://t.me/DK_BOTZ'),
+                    InlineKeyboardButton('📢 Channel', url='https://t.me/DKBOTZ'),
+                    InlineKeyboardButton('✳️ DEVELOPER', url='https://t.me/DKBOTZHELP')
                 ],
                 [
-                    InlineKeyboardButton('🖥️Tutorial Video🖥️', url='https://youtu.be/lb-JJLqyww4')
+                    InlineKeyboardButton('BOT STATUS', url='https://t.me/DKBOTZSTATUS')
                 ]
             ]
         ),
@@ -140,7 +140,7 @@ async def incoming_compress_message_f(bot, update):
         except Exception:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/DK_BOTZ).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
