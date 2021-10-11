@@ -49,7 +49,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Support Group', url='https://telegram.me/tellybots_support')
+                    InlineKeyboardButton('Support Group', url='https://telegram.me/DK_BOTZ')
                 ]
             ]
         ),
